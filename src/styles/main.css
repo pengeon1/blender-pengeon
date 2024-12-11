@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic&display=swap');
 
-/*
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 @-moz-keyframes spinner {
   0% {
     -moz-transform: rotate(0deg);
@@ -151,12 +145,16 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
+  padding: 1px;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  border-radius: 25px;
+}
+
+article{
+  border: 8px solid transparent;
 }
 
 article,
@@ -389,7 +387,7 @@ h6 {
   font-size: 0.7em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 836px) {
   h2 {
     font-size: 1em;
   }
@@ -1739,6 +1737,7 @@ body.is-preload #header {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
 }
 
 #main .thumb {
